@@ -1,0 +1,129 @@
+.bg_col{
+    background-color: #222d32;
+}
+.mg_15{
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding-left: 180px;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+.lt_aside a{
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    line-height: 40px;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;    
+}
+
+/* index页面开始 */
+.lt_aside{
+    width: 180px;
+    height: 100%;
+    background-color: #222d32;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    transition: all 1s;
+}
+.lt_aside>a:nth-child(1){
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    background-color: #367fa9;
+}
+.img{
+    height: 150px;
+    color: #fff;
+}
+.lt_aside img{
+    display: block;
+    margin: 30px auto 0;
+    border-radius: 50%;
+}
+.lt_aside .img p{
+    font-size: 16px;
+    padding: 5px 0;
+}
+.lt_aside a>span{
+    padding: 0 5px;
+}
+.lt_aside>div a{
+    text-align: left;
+    padding-left: 30px;
+}
+.lt_aside .man_son>a{
+    padding-left: 50px;    
+}
+
+
+
+.banner{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    padding-left: 180px;
+    box-sizing: border-box;
+    background-color: #3c8dbc;
+    transition: all 1s;
+}
+.banneract{
+    padding-left: 0;    
+}
+.asideact{
+    left: -180px;
+}
+.banner a{
+    height: 50px;    
+    line-height: 50px;
+}
+.banner span{
+    padding: 0 20px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.pic_left,
+.pic_right {
+  width: 45%;
+  height: 400px;
+}
+
+#userTab tr td{
+    vertical-align: middle;
+}
+.contentBody{
+    padding: 15px;
+}
+.btn_add{
+    margin-bottom: 20px;
+}
+.second_img{
+    width: 50px;
+    height: 50px;
+}
+#secondTab td,
+#proTab td{
+    vertical-align: middle;
+}
+.seePic img{
+    width: 100px;
+    height: 100px;
+}

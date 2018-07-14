@@ -58,7 +58,6 @@ $(function () {
 
     fields:{
       categoryName:{
-
         validators:{
           notEmpty:{
             message:"请输入一级分类的名称"
@@ -68,15 +67,8 @@ $(function () {
       }
     }
   });
-
-
-
-
   //注册表单校验成功事件
   $form.on("success.form.bv", function (e) {
-
-    //var categoryName = $("[name='categoryName']").val();
-
     e.preventDefault();
     console.log("呵呵");
     //发送ajax请求，
